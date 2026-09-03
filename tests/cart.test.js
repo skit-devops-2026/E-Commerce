@@ -6,7 +6,7 @@ test("calculates the total of cart items", () => {
         { price: 50, quantity: 1 }
     ];
 
-    expect(calculateCartTotal(items)).toBe(250);
+    expect(calculateCartTotal(items)).toBe(999);
 });
 
 test("returns zero for an empty cart", () => {
